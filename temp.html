@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item1{
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+        }
+        .item2{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+            /* gap: 20px; */
+            justify-content:space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <!-- <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div>
+        <div class="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae repudiandae nobis, voluptate minima impedit inventore quia minus quis fugit natus temporibus, magnam excepturi eligendi harum maiores suscipit quod placeat optio maxime expedita libero! Vel omnis nihil molestias fuga. Ducimus libero saepe quis, odio veritatis officiis dolores ab quo doloremque?</div> -->
+    </div>
+</body>
+</html>
